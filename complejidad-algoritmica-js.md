@@ -16,3 +16,15 @@
 
 ### Medicion de recursos:
 - Para saber que tantos recursos consume un algoritmo, solo se miden los recursos, tomando el tiempo y el espacio requiere dicho algoritmo.
+
+## Complejidad Espacial:
+- La complejidad espacial, se encarga de calcular cuanto espacio en memoria puede ocupar un algoritmo, a parte del espacio ocupado por los datos de entrada, existe el espacio auxiliar, el cual es el espacio creado por el mismo algoritmo para hacer otro procesos, por ejemplo: filtrar un array, hacer un sort de números, etc. El espacio auxiliar incluso puede llegar a hacer mucho más grande que el espacio de los datos de entrada, y está relacionado al algoritmo mas que a los datos recibos.
+
+```
+function plusOne(arr){
+    const result = arr.map(item => item + 1)
+    return result;
+}
+
+```
+- Cuando se refiere a Espacio Auxiliar, estamos hablando del espacio usado dentro del proceso. En este caso se esta creando un nuevo array al momento de usar map, ya que este método es inmutable, lo que crea un array nuevo, en lugar de modificar el pasado como parámetro. Este nuevo array que se ha creado es lo que debemos tomar en cuenta para hacer nuestro análisis Espacial
