@@ -28,3 +28,6 @@ function plusOne(arr){
 
 ```
 - Cuando se refiere a Espacio Auxiliar, estamos hablando del espacio usado dentro del proceso. En este caso se esta creando un nuevo array al momento de usar map, ya que este método es inmutable, lo que crea un array nuevo, en lugar de modificar el pasado como parámetro. Este nuevo array que se ha creado es lo que debemos tomar en cuenta para hacer nuestro análisis Espacial
+
+## Complejidad temporal
+- La complejidad temporal se puede definir como la relación de crecimiento entre datos de entrada y tiempo de ejecución, trata de medir la eficiencia de un algoritmo conforme la cantidad de datos de entrada va aumentando. Es decir que la complejida no se trata de cuando mas o menos se tarda sino como aumenta en el tiempo
