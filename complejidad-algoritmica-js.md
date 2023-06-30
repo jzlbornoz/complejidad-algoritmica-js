@@ -31,3 +31,12 @@ function plusOne(arr){
 
 ## Complejidad temporal
 - La complejidad temporal se puede definir como la relación de crecimiento entre datos de entrada y tiempo de ejecución, trata de medir la eficiencia de un algoritmo conforme la cantidad de datos de entrada va aumentando. Es decir que la complejida no se trata de cuando mas o menos se tarda sino como aumenta en el tiempo
+
+## Otras complejidades existentes
+- Accesos a memoria.
+- Procesos paralelos.
+- Comparaciones.
+- Entre otras más.
+
+## Complejidad en el futuro
+- Si decubrimos interesante optimizar el uso de un recurso en computación, allí tendremos un nuevo campo de estudio de complejidad.
