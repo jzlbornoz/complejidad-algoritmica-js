@@ -66,9 +66,33 @@ function plusOne(arr){
 
 - Por ejemplo, si un algoritmo tiene una complejidad de O(n^2), significa que el tiempo de ejecución del algoritmo aumenta cuadráticamente con el tamaño de los datos. Esto significa que si el tamaño de los datos se duplica, el tiempo de ejecución aumentará por un factor de cuatro. La notación Big-O se utiliza a menudo para describir el rendimiento de algoritmos en términos de su orden de crecimiento. Otros términos comunes incluyen la notación Big-Ω (omega) y Big-Θ (theta). Big-Ω describe el límite inferior del rendimiento de un algoritmo, mientras que Big-Θ describe el rendimiento exacto de un algoritmo
 
-- O(n) = Constante
+- O(1) = Constante
 - O(log n) = Logaritmica
 - O(n) = Lineal
 - O(n^2) = Cuadratica
 - O(n^x) = Exponencial
 - O(n!) = Factorial
+
+## Calculo de la Notacion Big-O
+
+- El crecimiento importa ya que la complejidad de un algoritmo nace de cuántos recursos utiliza el algoritmo al ejecutarse.
+
+- La notacion Big-O solo se enfoca en el crecimiento. Un algoritmo puede correr en una computadora muy vieja-lenta o en una muy nueva-rapida, pero el crecimiento (ritmo) sea el mismo, la complejidad será la misma. Pero esto es en base a los recursos que esa computadora tiene.
+
+- En conclusion se revisa el código en nuestro algoritmo para medir su complejidad en la notación Big-O.
+
+```
+let bar = 'test'  // O(1)
+if() {}    // O(1)
+for() {}    // O(n)
+while() {}  // O(n)
+for() { for() {} }// O(n^2)
+```
+
+- La simplificacion tambien cumple un papel importante. Para simplificar la notación nos concentramos en el valor podemos abreviarlo de la siguiente manera:
+
+* O(2n) ⇒ O(n)
+* O(50) ⇒ O(1)
+* O(n² + 50) ⇒ O(n²)
+
+- Es posible simplificar de esta manera, ya que solo nos importa el grado mayor
