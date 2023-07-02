@@ -57,3 +57,18 @@ function plusOne(arr){
 - El comportamiento asintótico de una función f(n) se refiere al crecimiento de f(n) a medida que n crece.
 - En el análisis asintótico, evaluamos el rendimiento de un algoritmo en términos de tamaño de entrada (no medimos el tiempo de ejecución real)
 - Calculamos cómo aumenta el tiempo (o espacio) que toma un algoritmo con el tamaño de entrada.
+
+# Notacion Big-O
+
+- Es necesaria ya que permite simplificar el análisis de la complejidad computacional. Buscamos poder simplificar la representación de la complejidad. Con esta notacion (Big-O) se busca descubrir una función (constante, lineal, cuadratica, logarítmica o exponencial) que sea mayor o igual que la complejidad de un algoritmo.
+
+- La notación Big-O es una forma comúnmente utilizada en el análisis asintótico para describir el rendimiento de un algoritmo. Se utiliza para indicar el límite superior del tiempo de ejecución de un algoritmo a medida que el tamaño de los datos aumenta.
+
+- Por ejemplo, si un algoritmo tiene una complejidad de O(n^2), significa que el tiempo de ejecución del algoritmo aumenta cuadráticamente con el tamaño de los datos. Esto significa que si el tamaño de los datos se duplica, el tiempo de ejecución aumentará por un factor de cuatro. La notación Big-O se utiliza a menudo para describir el rendimiento de algoritmos en términos de su orden de crecimiento. Otros términos comunes incluyen la notación Big-Ω (omega) y Big-Θ (theta). Big-Ω describe el límite inferior del rendimiento de un algoritmo, mientras que Big-Θ describe el rendimiento exacto de un algoritmo
+
+- O(n) = Constante
+- O(log n) = Logaritmica
+- O(n) = Lineal
+- O(n^2) = Cuadratica
+- O(n^x) = Exponencial
+- O(n!) = Factorial
