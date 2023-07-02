@@ -96,3 +96,13 @@ for() { for() {} }// O(n^2)
 * O(n² + 50) ⇒ O(n²)
 
 - Es posible simplificar de esta manera, ya que solo nos importa el grado mayor
+
+## Recomendaciones para la evaluacion de un algoritmo
+
+- Hasta ahora se sabe que un algoritmo con O(1) es mejor que uno con O(n). Pero, ¿y si ese algoritmo constante en tiempo O(1) se ejecuta en 1000 horas? ¿Y si ese algoritmo constante en espacio O(1) ocupa 1000 GB? La complejidad algorítmica es importante, pero dónde se ejecuta tu algoritmo determina qué tan importante es.
+
+### ¿El crecimiento siempre importa?
+
+- Cuando la Complejidad Algorítmica deja de ser relevante, es donde debemos mejorar nuestro algoritmo para alcanzar nuestro objetivo de eficiencia. Tal vez tengamos el mejor algoritmo jamás visto, pero si lo ejecutamos en una computadora de hace 20 años con un procesador antiguo, pues no podemos esperar mucha rapidez.
+
+- Si tenemos un algoritmo A con O(1) y un algoritmo B con O(1), aún podemos saber cuál tiene un mejor rendimiento midiendo el tiempo en que duran. Ya que no dependen puramente del análisis asintótico. En este caso, la solución del problema no se trata de buscar el algoritmo con menor complejidad, sino de buscar las mejores opciones o variables de entorno para ejecutar y resolver el problema.
